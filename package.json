@@ -1,0 +1,23 @@
+{
+	"name": "hyy-admin",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development vite",
+		"build-dev": "cross-env NODE_ENV=development vite build",
+		"build-prd": "cross-env NODE_ENV=production vite build"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"vue": "^3.0.4",
+		"vue-router": "^4.0.8",
+		"yarn": "^1.22.10",
+		"vant": "^3.0.16"
+	},
+	"devDependencies": {
+		"@vue/compiler-sfc": "^3.0.4",
+		"cross-env": "^7.0.3",
+		"sass": "^1.32.13",
+		"typescript": "^4.2.4",
+		"vite": "^1.0.0-rc.13"
+	}
+}
