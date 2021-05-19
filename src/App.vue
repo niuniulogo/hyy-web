@@ -10,3 +10,6 @@ export default {
   }
 }
 </script>
+<style>
+	@import 'vant/lib/index.css'
+</style>

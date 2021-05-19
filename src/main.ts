@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
 import router from './router/index'
 import App from './App.vue'
-import Vant from 'vant';
+import Vant from 'vant'
 import './reset.scss'
-import 'vant/lib/index.css';
+
 
 
 const app = createApp(App);
